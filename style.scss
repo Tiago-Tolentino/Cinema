@@ -1,0 +1,26 @@
+// seletor{propriedade:valor;}
+
+
+// * = seletor global
+*{
+    margin: 0;
+    // espacamento externo das tags
+    padding: 0;
+    // espacamento interno das tags
+    box-sizing: border-box;
+    // Faz o calculo correto dos tamanhos dos elementos
+}
+
+img{
+    width: 300px;
+}
+
+// .class - seletor
+.titulo{
+    color: rgb(255, 0, 0);
+}
+
+// #id - seletor
+#btn1{
+    background-color: yellow;
+}
