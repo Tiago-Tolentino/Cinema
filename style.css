@@ -4,14 +4,43 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #5f0f40;
+  text-align: center;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 1%;
+}
+
+.banner {
+  background-image: url("https://img.freepik.com/vetores-gratis/cartaz-de-tempo-de-filme-de-cinema-horizontal-realista-com-carretel-de-badalo-de-bilhetes-de-lanches-de-oculos-3d-em-fundo-azul-com-ilustracao-vetorial-bokeh_1284-77013.jpg");
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 img {
   width: 300px;
 }
 
 .titulo {
-  color: rgb(255, 0, 0);
+  color: rgb(240, 248, 255);
 }
 
 #btn1 {
   background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
